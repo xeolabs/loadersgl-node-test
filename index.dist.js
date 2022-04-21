@@ -1,0 +1,1 @@
+export {parseGLTF} from "./src/parseGLTF.js";

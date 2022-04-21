@@ -1,0 +1,40 @@
+{
+  "name": "loadersgl-node-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup --config rollup.config.dist.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xeolabs/loadersgl-node-test.git"
+  },
+  "author": "xeolabs <lindsay.kay@xeolabs.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xeolabs/loadersgl-node-test/issues"
+  },
+  "homepage": "https://github.com/xeolabs/loadersgl-node-test#readme",
+  "dependencies": {
+    "@loaders.gl/core": "3.0.13",
+    "@loaders.gl/gltf": "3.0.13",
+    "@loaders.gl/json": "3.0.13",
+    "@loaders.gl/las": "3.0.13",
+    "@loaders.gl/obj": "3.0.13",
+    "@loaders.gl/ply": "3.0.13",
+    "@loaders.gl/polyfills": "3.0.13",
+    "@rollup/plugin-json": "^4.1.0",
+    "cross-fetch": "^3.1.5",
+    "node-fetch": "^3.2.3",
+    "yarn": "^1.22.18"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^15.1.0",
+    "rollup": "^2.46.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-minify-es": "^1.1.1",
+    "rollup-plugin-node-resolve": "^5.2.0"
+  }
+}
